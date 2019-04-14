@@ -2,96 +2,96 @@
 /* CSS Document */
 
 body{
-	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-size:1em;
+  font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size:1em;
 }
 
 /*LAYOUT*/
 
 #content{
-	max-width:1500px;
+  max-width:1500px;
   margin:0 auto;
 }
 
 #header{
-	margin:5% 0 3%;
+  margin:5% 0 3%;
 }
 
 .half-width{
-	position:relative;
-	float:left;
-	max-width:30%;
-	margin:0 0;
+  position:relative;
+  float:left;
+  max-width:30%;
+  margin:0 0;
 }
 
 .full-width{
-	position:relative;
-	float:left;
-	text-align:center;
-	width:100%;	
+  position:relative;
+  float:left;
+  text-align:center;
+  width:100%; 
 }
 
 #left-col{
-	position:relative;
-	float:left;
-	width:25%;
-	margin-left:10%;
-	margin-right:5%;
-	margin-top:125px;
+  position:relative;
+  float:left;
+  width:25%;
+  margin-left:10%;
+  margin-right:5%;
+  margin-top:125px;
 }
 
 #right-col{
-	position:relative;
-	float:left;
-	width:30%;
-	margin-right:15%
+  position:relative;
+  float:left;
+  width:30%;
+  margin-right:15%
 }
 
 #social-menu{
-	margin-top:20px;
+  margin-top:20px;
 }
 
 #footer{
-	position: relative;
-	float: left;
-	height:100px;
+  position: relative;
+  float: left;
+  height:100px;
 }
 
 /*TEXT*/
 h1{
-	font-size:3em;
-	text-transform:uppercase;
-	text-align:left;
-	margin:0 0 5px;
+  font-size:3em;
+  text-transform:uppercase;
+  text-align:left;
+  margin:0 0 5px;
 }
 
 h2{
-	font-size:1.2em;
-	margin-top:15px;
+  font-size:1.2em;
+  margin-top:15px;
 }
 
 h3.tagline{
-	font-size:1em;
-	font-weight:normal;
-	text-align:left;
-	margin:0 0 40px;
+  font-size:1em;
+  font-weight:normal;
+  text-align:left;
+  margin:0 0 40px;
 }
 
 p{
-	font-size:1em;
+  font-size:1em;
 }
 
 /*IMAGES*/
 .headshot{
-	float:right;
-	background: url(../images/headshot.jpg) no-repeat;
+  float:right;
+  background: url(../images/headshot.jpg) no-repeat;
 
-	background-size:100%;
-	background-position:right;
-	border-radius:50%;
-	width:250px;
-	height:250px;
-	border:none;	
+  background-size:100%;
+  background-position:right;
+  border-radius:50%;
+  width:250px;
+  height:250px;
+  border:none;  
 }
 
 /*LINKS*/
@@ -100,18 +100,18 @@ a{
 }
 
 a:active{
-	font-weight:bold;
+  font-weight:bold;
 }
 
 /*SOCIAL MENU*/
 
 ul.social-links{
   font-size:2em;
-	margin-top:20px;
-	padding:0;
+  margin-top:20px;
+  padding:0;
 }
 
 ul.social-links li{
-	display:inline;
-	margin-right:10px;
+  display:inline;
+  margin-right:10px;
 }
